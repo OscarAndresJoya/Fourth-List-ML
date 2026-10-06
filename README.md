@@ -2,6 +2,8 @@
 
 Universidad El Bosque · Programa de Matemáticas y Estadística · Semestre 2026-2
 
+Trabajo hecho entre Oscar Joya y Mónica López.
+
 ## Estructura del repositorio
 
 ```
