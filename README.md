@@ -25,32 +25,3 @@ lista_4/
 Los cuadernos solo contienen la ejecución de cada ejercicio, sus tablas, gráficas y
 respuestas; toda la lógica repetida (carga, ajuste, riesgos) está en `src/lista4/`.
 
-## Instalación
-
-Desde la carpeta `lista_4/`:
-
-```bash
-python -m venv .venv
-
-# Windows (PowerShell)
-.venv\Scripts\Activate.ps1
-# macOS / Linux
-source .venv/bin/activate
-
-pip install -r requirements.txt
-pip install -e .          # instala el paquete local `lista4`
-```
-
-## Cómo ejecutar los cuadernos
-
-**En VS Code:** abra la carpeta `lista_4/`, abra un cuaderno de `notebooks/`, elija como
-kernel el entorno `.venv` (esquina superior derecha) y use *Run All*.
-
-**Con Jupyter:**
-
-```bash
-jupyter lab
-```
-
-Los cuadernos se entregan ya ejecutados. Si se vuelven a ejecutar, deben dar los
-mismos resultados (no hay componentes aleatorios).
